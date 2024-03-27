@@ -5,20 +5,25 @@
 }
 
 body {
-    background-color:darkslategray;
+    background-color: darkslategray;
 }
 
 
 body > header {
     background-color: black;
     padding: 16px 0;
-    color: bisque;
+    color:rgba(97, 94, 94,30);
     border-bottom: 1px solid white;
 }
 
 body > header a {
-    color: bisque;
+    color:rgba(97, 94, 94,30);
     text-decoration: none;
+
+}
+
+body > header a:hover{
+    text-decoration: underline;
 }
 
 header .container {
@@ -30,7 +35,7 @@ header li {
     display: inline; /*deixa os elementos em linhas*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-left: 16px;
+    margin-left: 20px;
 }
 
 
@@ -42,8 +47,8 @@ header li {
 
 .articles{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap; /* faz com que o conteudo que não couber na linha quebre e vá para a de baixo*/
+    justify-content: space-between; 
 }
 .articles article img {
     width: 100%;
@@ -54,19 +59,19 @@ header li {
 }
 
 section {
-    padding: 16px 0; /*adiciona espaçamento entre as seções*/
-    color: bisque
+    padding: 30px 0; /*adiciona espaçamento entre as seções*/
+    color: bisque;
 }
 
 section h2{
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     color:bisque;
 }
 
-article h3 {
-    padding: 5px 0;
-    margin-bottom: 5px; /*adiciona margem em cima*/
-    margin-top: 5px; /* adiciona margem embaixo*/
+section h3 {
+    padding: 10px 0;
+    margin-bottom: 5px; /*adiciona margem em em baixo*/
+    margin-top: 5px; /* adiciona margem em cima*/
     color: bisque
 }
 
@@ -101,7 +106,7 @@ h2 {
 }
 
 #economy {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 
@@ -122,4 +127,38 @@ h2 {
 #economy .articles article a{
 color: darkslategray;
 }
+
+#entertainment {
+    background-color: rgba(10, 5, 65, 70)
+}
+
+#entertainment .articles article a {
+    color: darkgray;
+}
+
+#entertainment .articles article time,
+#entertainment h2,
+#entertainment h3,
+#entertainment p {
+    color: darkgray;
+}
+
+
+#technology {
+    background-color: rgba(25, 50, 10, 20)
+}
+
+#technology .articles article a {
+    color:tan;
+}
+
+#technology .articles article time,
+#technology h2,
+#technology h3,
+#technology p {
+    color:tan;
+}
+
+
+
 
