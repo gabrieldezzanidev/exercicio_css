@@ -12,12 +12,12 @@ body {
 body > header {
     background-color: black;
     padding: 16px 0;
-    color: bisque;
+    color: rgb(124, 117, 117);
     border-bottom: 1px solid white;
 }
 
 body > header a {
-    color: bisque;
+    color: rgb(124, 117, 117);
     text-decoration: none;
 }
 
@@ -101,11 +101,6 @@ h2 {
 }
 
 #economy {
-    padding-bottom: 40px;
-}
-
-
-#economy {
     background-color: bisque;
 }
 
@@ -130,11 +125,25 @@ color: darkslategray;
 
 #entertainment h2,
 #entertainment h3,
-#entertainment p{
+#entertainment p,
+#entertainment time,
+#entertainment a{
     color:gainsboro;
 }
 
 #technology img{
     height: 300px;
     width: 100%;
+}
+
+#technology {
+    background-color:tan ;
+}
+
+#technology h2,
+#technology h3,
+#technology p,
+#technology time,
+#technology a {
+    color:black
 }
