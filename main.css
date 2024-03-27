@@ -123,3 +123,18 @@ h2 {
 color: darkslategray;
 }
 
+
+#entertainment {
+    background-color: rgba(10, 15, 75, 80);
+}
+
+#entertainment h2,
+#entertainment h3,
+#entertainment p{
+    color:gainsboro;
+}
+
+#technology img{
+    height: 300px;
+    width: 100%;
+}
