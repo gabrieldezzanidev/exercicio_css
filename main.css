@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:darkslategray;
+}
+
+
+body > header {
+    background-color: black;
+    padding: 16px 0;
+    color: bisque;
+    border-bottom: 1px solid white;
+}
+
+body > header a {
+    color: bisque;
+    text-decoration: none;
+}
+
+header .container {
+    display: flex; /*deixa um elemento ao lado do outro*/
+    align-items: center;
+}
+
+header li {
+    display: inline; /*deixa os elementos em linhas*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto ;
+    justify-content: space-between;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%; /* deixa um artigo do lado do outro*/
+}
+
+section {
+    padding: 16px 0; /*adiciona espaçamento entre as seções*/
+    color: bisque
+}
+
+section h2{
+    margin-bottom: 16px;
+    color:bisque;
+}
+
+article h3 {
+    padding: 5px 0;
+    margin-bottom: 5px; /*adiciona margem em cima*/
+    margin-top: 5px; /* adiciona margem embaixo*/
+    color: bisque
+}
+
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article a{    
+    color: bisque;    
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover{
+    text-decoration: underline;}
+
+.articles article p,
+.articles article a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articles article p{
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+#economy {
+    padding-bottom: 40px;
+}
+
+
+#economy {
+    background-color: bisque;
+}
+
+#economy h2,
+#economy h3,
+#economy p{
+    color: darkslategray;
+}
+
+.date-economy {
+    color: darkslategray;
+}
+
+#economy .articles article a{
+color: darkslategray;
+}
+
